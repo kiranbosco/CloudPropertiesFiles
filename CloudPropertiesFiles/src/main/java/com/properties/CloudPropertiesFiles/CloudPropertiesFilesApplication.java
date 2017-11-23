@@ -6,7 +6,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 
 /**
  * 
- * @author lenovo
+ * @author puriniBosco
  *
  */
 @SpringBootApplication

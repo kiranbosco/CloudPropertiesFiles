@@ -13,7 +13,14 @@ public class CloudController {
 	}
 
 	@RequestMapping(value="/hello",method=RequestMethod.GET)
-	public void intValue() {
-
+	public int intValue() {
+		int a=100;
+		int b=200;
+		int c=a+b;
+		return c;
 	}
+	@RequestMapping(value="/integer",method=RequestMethod.GET)
+	public String StringValue() {
+		return "Kiran";
+}
 }
